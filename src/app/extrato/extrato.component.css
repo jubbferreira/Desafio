@@ -1,0 +1,36 @@
+  
+.titulo {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 2px;
+    padding: var(--padding);
+    color: var(--primary);
+  }
+.tabela {
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.tabela__cabecalho {
+    text-align: center;
+    color: var(--primary);
+ }
+  
+.tabela__conteudo {
+    padding: 10px;
+    border-bottom: 2px solid black;
+    text-align: center;
+} 
+.tabela__linha {
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.tabela:last-child
+tabela__conteudo {
+  border-bottom: none;
+}
+.tabela__conteudo {
+    padding: 10px;
+    border-bottom: 1px solid var(--cinza-claro);
+    }
